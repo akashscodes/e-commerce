@@ -1,6 +1,13 @@
 env/
 __pycache__/
+
 db.sqlite3
-**/migrations/*
-!**/migrations/__init__.py
+*/migrations/*
+!*/migrations/__init__.py
+
 .env
+
+node_modules/
+package-lock.json
+static/CACHE/
+static/src/output.css
